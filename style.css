@@ -1,7 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
+
 body{
-  background-color: rgb(255, 210, 218);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Overlock', cursive;
+  background: linear-gradient(to bottom, #eb56d7, #fdc6f6);
+  height: 100vh;
+}
+
+.img-social{
+  width: 2.5rem;
+  height: auto;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+  body{
+    height: auto;
+    overflow: auto;
+    background-size: cover;
+  }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+@media (max-width: 1199.98px) {
+
 }
 
 h1{

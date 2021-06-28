@@ -47,3 +47,7 @@ body{
   background: linear-gradient(to bottom, #eb56d7, #fdc6f6);
   height: 100vh;
 }
+
+.bg-roxo{
+  background-color: rgb(135, 0, 189);
+}

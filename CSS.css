@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+.text-purple{
+  color: rgb(135, 0, 189);
+  font-family: 'Squada One', cursive;
+}
+
+.btn-personal {
+  color: #fff;
+  background-color: rgb(255, 55, 255);
+  border-color: rgb(255, 55, 255);
+}
+
+.btn-personal:hover {
+  color: #fff;
+  background-color: rgb(255, 0, 140);
+  border-color: rgb(255, 0, 140);
+}
+
+.btn-personal:focus, .btn-personal.focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 0, 55, 0.5);
+}
+
+.btn-personal.disabled, .btn-personal:disabled {
+  color: #fff;
+  background-color: rgb(255, 55, 255);
+  border-color: rgb(255, 55, 255);
+}
+
+.btn-personal:not(:disabled):not(.disabled):active, .btn-personal:not(:disabled):not(.disabled).active,
+.show > .btn-personal.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(255, 0, 140);
+  border-color: rgb(255, 0, 140);
+}
+
+.btn-personal:not(:disabled):not(.disabled):active:focus, .btn-personal:not(:disabled):not(.disabled).active:focus,
+.show > .btn-personal.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 0, 55, 0.5);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Overlock', cursive;
+  background: linear-gradient(to bottom, #eb56d7, #fdc6f6);
+  height: 100vh;
+}

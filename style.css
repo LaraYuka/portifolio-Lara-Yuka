@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Merienda+One&display=swap');
+
 body{
   margin: 0;
   padding: 0;
   overflow: hidden;
   font-family: 'Overlock', cursive;
-  background: linear-gradient(to bottom, #eb56d7, #fdc6f6);
+  background: linear-gradient(to bottom, rgb(255, 0, 93), rgb(209, 24, 255));
   height: 100vh;
 }
 
@@ -40,18 +42,27 @@ body{
 
 }
 
-h1{
-  margin-top: 5vh !important;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 20rem;
+.text-ciano{
+  color: #00dada;
+  font-family: 'Merienda One', cursive;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #000;
 }
 
-.text-purple{
-  color: rgb(135, 0, 189);
+.text-verde-agua {
+  color: #5ce4e4;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #000;
 }
 
 .img-borda{
   border: 0.4rem dashed rgb(183, 0, 255);
+}
+
+.link:hover{
+  color: rgb(7, 255, 234);
+  cursor: pointer;
+  border: none;
 }
 
 

@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 
 .text-purple{
-  color: rgb(135, 0, 189);
+  color: rgb(9, 255, 243);
   font-family: 'Squada One', cursive;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: #000;
 }
 
 .btn-personal {
-  color: #fff;
-  background-color: rgb(255, 55, 255);
-  border-color: rgb(255, 55, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(132, 2, 255);
+  border-color: rgb(22, 247, 228);
 }
 
 .btn-personal:hover {
-  color: #fff;
-  background-color: rgb(255, 0, 140);
+  color: rgb(0, 0, 0);
+  background-color: rgb(73, 205, 214);
   border-color: rgb(255, 0, 140);
 }
 
@@ -44,10 +46,11 @@ body{
   padding: 0;
   overflow: hidden;
   font-family: 'Overlock', cursive;
-  background: linear-gradient(to bottom, #eb56d7, #fdc6f6);
+  
+  background: linear-gradient(to bottom, rgb(255, 0, 93), rgb(228, 121, 255));
   height: 100vh;
 }
 
 .bg-roxo{
-  background-color: rgb(135, 0, 189);
+  background-color: rgb(138, 9, 189);
 }

@@ -43,17 +43,22 @@
             <div class="row">
 
               <div class="col-4 col-sm-4 col-md-4">
-               <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/projetos.png" alt="Projetos">
-               <h4 class="text-white text-center">Projetos</h4>
+                <a href="#" data-toggle="modal" data-target="#modal-info">
+                  <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/projetos.png" alt="Projetos">
+                  <h4 class="text-white text-center">Projetos</h4>
+                </a>
               </div>
 
               <div class="col-4 col-sm-4 col-md-4">
-               <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/clientes.png" alt="Parceiros">
-               <h4 class="text-white text-center">Parceiros</h4>
+                <a href="#" data-toggle="modal" data-target="#modal-info">
+                  <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/clientes.png" alt="Parceiros">
+                  <h4 class="text-white text-center">Parceiros</h4>
+                </a>
               </div>
 
               <div class="col-4 col-sm-4 col-md-4">
-                <a href="contato.html" class="link">
+                <a href="#" data-toggle="modal" data-target="#modal-info">
+                <!-- <a href="contato.html" class="link"> -->
                   <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/contatos.png" alt="Fale Conosco">
                   <h4 class="text-white text-center">Fale Conosco</h4>
                 </a>
@@ -103,7 +108,41 @@
 
     </div>
   </div> 
-  -->
+  
+
+  <!-- Criar a estrutura do modal 
+
+  <div class="modal fade" id="information" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Título do modal</h5>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer"></div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Modal -->
+<div class="modal fade" id="modal-info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Título do Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="js/jquery-3.6.0.min.js"></script>
 

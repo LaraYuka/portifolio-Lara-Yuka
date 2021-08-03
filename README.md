@@ -10,3 +10,5 @@ Portfólio de competências e habilidades da aula LaraYuka
 08/06/21 - Foi desenvolvido a página inicial do projeto, bem como configurado o GitPages
 
 02/08 - Aula de introdução ao jQuery
+
+03/08 - Continuação da introdução do jQuery

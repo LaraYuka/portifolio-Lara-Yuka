@@ -12,3 +12,5 @@ Portfólio de competências e habilidades da aula LaraYuka
 02/08 - Aula de introdução ao jQuery
 
 03/08 - Continuação da introdução do jQuery
+
+09/08 - Continuação do jQuery, conteudo na janela modal

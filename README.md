@@ -14,3 +14,5 @@ Portfólio de competências e habilidades da aula LaraYuka
 03/08 - Continuação da introdução do jQuery
 
 09/08 - Continuação do jQuery, conteudo na janela modal
+
+10/8 - Continuação do jQuery, botão de mudar o fundo

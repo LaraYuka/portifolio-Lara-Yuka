@@ -9,7 +9,20 @@ body{
   padding: 0;
   overflow: hidden;
   font-family: 'Overlock', cursive;
-  background: linear-gradient(to bottom, rgb(255, 0, 93), rgb(209, 24, 255));
+}
+
+.original{
+  background: linear-gradient(to bottom, #ff005d, #e479ff);
+  height: 100vh;
+}
+
+.light{
+  background: #fafafa;
+  height: 100vh;
+}
+
+.dark{
+  background: #303030;
   height: 100vh;
 }
 

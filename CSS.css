@@ -5,22 +5,10 @@ body{
   padding: 0;
   overflow: hidden;
   font-family: 'Overlock', cursive;
-}
-
-.original{
   background: linear-gradient(to bottom, #ff005d, #e479ff);
   height: 100vh;
 }
 
-.light{
-  background: #fafafa;
-  height: 100vh;
-}
-
-.dark{
-  background: #303030;
-  height: 100vh;
-}
 
 .text-purple{
   color: rgb(9, 255, 243);

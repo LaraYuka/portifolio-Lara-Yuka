@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Overlock', cursive;
+}
+
+.original{
+  background: linear-gradient(to bottom, #ff005d, #e479ff);
+  height: 100vh;
+}
+
+.light{
+  background: #fafafa;
+  height: 100vh;
+}
+
+.dark{
+  background: #303030;
+  height: 100vh;
+}
+
 .text-purple{
   color: rgb(9, 255, 243);
   font-family: 'Squada One', cursive;
@@ -39,16 +61,6 @@
 .btn-personal:not(:disabled):not(.disabled):active:focus, .btn-personal:not(:disabled):not(.disabled).active:focus,
 .show > .btn-personal.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 0, 55, 0.5);
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-family: 'Overlock', cursive;
-  
-  background: linear-gradient(to bottom, rgb(255, 0, 93), rgb(228, 121, 255));
-  height: 100vh;
 }
 
 .bg-roxo{
